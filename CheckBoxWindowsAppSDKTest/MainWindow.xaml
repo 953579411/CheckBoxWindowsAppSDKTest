@@ -8,24 +8,20 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <ScrollViewer Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" x:Name="roadGrid">
-            <ItemsControl Grid.Column="0" x:Name="lbItemList" Margin="0,0,10,0"  VerticalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+    <StackPanel>
+        <ScrollViewer>
+            <ItemsControl x:Name="lbItemList">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <Border BorderThickness="0 1 0 0" BorderBrush="Black">
-                            <Grid Margin="0,2,0,2">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="auto"/>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="auto" />
-                                </Grid.RowDefinitions>
-                                <CheckBox Content="Select" FontSize="20"
-                                              VerticalAlignment="Center" VerticalContentAlignment="Center" MinWidth="60" Padding="8,0,0,3"
-                                          ></CheckBox>
-                            </Grid>
-                        </Border>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto" />
+                            </Grid.RowDefinitions>
+                            <CheckBox></CheckBox>
+                        </Grid>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
