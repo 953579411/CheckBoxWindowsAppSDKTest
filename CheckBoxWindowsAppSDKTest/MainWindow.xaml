@@ -21,7 +21,7 @@
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="auto" />
                                 </Grid.RowDefinitions>
-                                <CheckBox Content="选择" FontSize="20"
+                                <CheckBox Content="Select" FontSize="20"
                                               VerticalAlignment="Center" VerticalContentAlignment="Center" MinWidth="60" Padding="8,0,0,3"
                                           ></CheckBox>
                             </Grid>
