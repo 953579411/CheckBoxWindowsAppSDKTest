@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "CheckBoxWindowsAppSDKTest (Package)": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": true
+    },
+    "CheckBoxWindowsAppSDKTest (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
